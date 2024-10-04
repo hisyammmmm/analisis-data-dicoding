@@ -12,7 +12,7 @@ st.write(
     """
 )
 
-all_data_df = pd.read_csv('all_data.csv')
+all_data_df = pd.read_csv('dashboard/all_data.csv')
 
 all_data_df['order_purchase_timestamp'] = pd.to_datetime(all_data_df['order_purchase_timestamp'], errors='coerce')
 
