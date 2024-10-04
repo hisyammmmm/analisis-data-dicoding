@@ -14,7 +14,7 @@ st.write(
 )
 
 # Load the combined dataset (all_data.csv)
-all_data_df = pd.read_csv('dashboard/all_data.csv')
+all_data_df = pd.read_csv('all_data.csv')
 
 # Bagian 1: Kategori produk dengan penjualan tertinggi pada tahun 2017
 st.subheader("Produk dengan kategori apa yang memiliki penjualan tertinggi pada tahun 2017?")
